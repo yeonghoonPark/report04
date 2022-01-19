@@ -1,0 +1,250 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+        :root{
+        font-family:'Roboto','Noto Sans KR',sans-serif;
+        font-weight:400;
+        font-size:18px;
+        line-height:24px;
+        color:#444;
+        }
+        .wrap{
+            width: 360px;
+            margin: 0 auto;
+            overflow: hidden;
+        }
+        /* header */
+        .header .container{
+            position: relative;
+            height: 48px;
+        }
+        .header i{
+            font-size: 16px;
+            color: #666666;
+        }
+        .header-center{
+            position: absolute;
+            top: 12px;
+            left: 144px;
+        }
+        .header-center h1{
+            font-weight: 500;
+            font-size: 24px;
+            color: #666666;
+        }
+        .btn-nav{
+            width: 16px;
+            height: 14px;
+            position: absolute;
+            top: 18px;
+            left: 16px;
+        }
+        .btn-nav span{
+            height: 3px;
+            margin-bottom: 3px;
+            background-color: #666666;
+        }
+        .btn-nav span:nth-child(3){
+            margin-bottom: 0;
+        }
+        .btn-search{
+            position: absolute;
+            top: 14px;
+            left: 46px;
+        }
+        .btn-user{
+            position: absolute;
+            top: 14px;
+            left: 300px;
+        }
+        .btn-talk{
+            position: absolute;
+            top: 14px;
+            left: 328px;
+        }
+        .line{
+            position: fixed;
+            top: 48px;
+            width: 360px;
+            height: 1px;
+            background-color: #f0f0f0;
+            text-indent: -99999999px;
+        }
+        
+        /* main */
+        .main .container{
+            position: relative;
+            height: 378px;
+        }
+        .main-img-box{
+            width: 142px;
+            height: 140px;
+            position: absolute;
+            left: 110px;
+            top: 40px;
+        }
+        .main .complate{
+            position: absolute;
+            top: 180px;
+            left: 144px;
+        }
+        .main .complate>h2{
+            font-weight: 300;
+            font-size: 18px;
+            color: #cccccc;
+        }
+        .main-name{
+            font-weight: 400;
+            font-size: 24px;
+            color: #666666;
+            position: absolute;
+            top: 240px;
+            left: 106px;
+        }
+        .main-address{
+            font-weight: 300;
+            font-size: 18px;
+            color: #888888;
+            position: absolute;
+            top: 276px;
+            left: 120px;
+        }
+        .main-address i{
+            font-size: 14px;
+        }
+
+        .follow-number{
+            font-weight: 400;
+            font-size: 14px;
+            color: #333333;
+        }
+        .follow-name{
+            font-weight: 400;
+            font-size: 10px;
+            color: #333333;
+        }
+        .follow-number01{
+            position: absolute;
+            top: 321px;
+            left: 54px;
+        }
+        .follow-number02{
+            position: absolute;
+            top: 321px;
+            left: 164px;
+        }
+        .follow-number03{
+            position: absolute;
+            top: 321px;
+            left: 280px;
+        }
+        .follow-name01{
+            position: absolute;
+            top: 336px;
+            left: 56px;
+        }
+        .follow-name02{
+            position: absolute;
+            top: 336px;
+            left: 166px;
+        }
+        .follow-name03{
+            position: absolute;
+            top: 336px;
+            left: 276px;
+        }
+        .main-line01,.main-line02{
+            width: 2px;
+            height: 14px;
+            background-color: #cccccc;
+            text-indent: -999999999px;
+        }
+        .main-line01{
+            position: absolute;
+            top: 332px;
+            left: 124px;
+        }
+        .main-line02{
+            position: absolute;
+            top: 332px;
+            left: 234px;
+        }
+        .photo{
+            width: 100%;
+            height: 178px;
+            /* background-color: rgba(0, 0, 0, 0.1); */
+            position: fixed;
+            top: 427px;
+        }
+        .sub-img-box{
+            width: 87px;
+            height: 87px;
+        }    
+        .sub-img-box02{
+            position: absolute;
+            top: 0;
+            left: 91px;
+        }
+        .sub-img-box03{
+            position: absolute;
+            top: 0;
+            left: 182px;
+        }
+        .sub-img-box04{
+            position: absolute;
+            top: 0;
+            left: 274px;
+        }
+        .sub-img-box05{
+            position: absolute;
+            top: 91px;
+            left: 0;
+        }
+        .sub-img-box06{
+            position: absolute;
+            top: 91px;
+            left: 91px;
+        }
+        .sub-img-box07{
+            position: absolute;
+            top: 91px;
+            left: 182px;
+        }
+        .sub-img-box08{
+            position: absolute;
+            top: 91px;
+            left: 274px;
+        }
+
+        /* footer */
+        .footer{
+            width: 360px;
+            height: 44px;
+            background-color: #f0f0f0;
+            position: fixed;
+            top: 610px;
+        }
+        .icon-box{
+            color: #cccccc;
+        }
+        .sub-icon-box01{
+            position: absolute;
+            top: 10px;
+            left: 41px;
+        }
+        .sub-icon-box02{
+            position: absolute;
+            top: 10px;
+            left: 132px;
+        }
+        .sub-icon-box02 i{
+            font-size: 21px;
+        }
+        .sub-icon-box03{
+            position: absolute;
+            top: 10px;
+            left: 216px;
+        }
+        .sub-icon-box04{
+            position: absolute;
+            top: 10px;
+            left: 298px;
+        }
