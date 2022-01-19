@@ -74,16 +74,45 @@
             position: relative;
             height: 378px;
         }
-        .main-img-box{
+        .main-cicle{
+            width: 360px;
+        }
+        .big-circle{
             width: 142px;
             height: 140px;
+            overflow: hidden;
+            border-radius: 50%;
+            border: 4px solid #8df7c1;
+            border-left: 4px solid #ccc;
+            border-bottom: 4px solid #ccc;
             position: absolute;
-            left: 110px;
-            top: 40px;
+            top: 39px;
+            left: 111px;
         }
+        .big-circle-img-box{
+            transform: scale(2);
+        }
+       .small-circle{
+           width: 24px;
+           height: 24px;
+           border-radius: 50%;
+           border: 2px solid #ffd1db;
+           background-color: #ff0036;
+
+           position: absolute;
+           top: 144px;
+           left: 220px;
+       }
+       .child-small-circle{
+           color: #fff;
+           font-weight: 300;
+           font-size: 7px;
+           text-align: center;
+           line-height: 20px;
+       }
         .main .complate{
             position: absolute;
-            top: 180px;
+            top: 194px;
             left: 144px;
         }
         .main .complate>h2{
